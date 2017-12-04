@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/11/2017, 01:01:31
+    Author     : vinicius caetano
+*/
+
+div.background {
+  background-image: url('../..//imagem/manutencao.jpg');
+  border: 1px solid white;
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 100%;
+     width: 100%;
+     margin : auto;
+     padding: 120px;
+}
+
+/* Below piece of code makes  the highlitened box*/ 
+div.err {
+  margin: 100px;
+  background-color: #ffffff;/* Used for colouring the transition box*/
+  border: 1px solid white;
+  opacity: 0.6;/*Used to specify opacity*/
+  padding-top: 50px;
+  padding-bottom: 50px
+  
+}
+
